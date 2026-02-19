@@ -1,0 +1,18 @@
+{
+  "width": 1200,
+  "height": 650,
+  "rows": [
+    { "rank": 1, "name": "DeFi Navigator", "ticker": "$DFN", "change24h": -3.72, "change7d": 4.79, "icon": "example/icons/dfn.png" },
+    { "rank": 2, "name": "Korn Emi Index", "ticker": "$KEMI", "change24h": 2.01, "change7d": 15.36, "icon": "example/icons/kemi.png" },
+    { "rank": 3, "name": "Gold Gove Basket", "ticker": "$GGBSKT", "change24h": 3.56, "change7d": 11.19, "icon": "example/icons/gg.png" },
+    { "rank": 4, "name": "Papino", "ticker": "$1", "change24h": 7.25, "change7d": 9.23, "icon": "example/icons/papino.png" },
+    { "rank": 5, "name": "Gold Ramp", "ticker": "$GRMP", "change24h": 2.43, "change7d": 8.82, "icon": "example/icons/grmp.png" }
+  ],
+  "style": {
+    "color_pos": "#16B89A",
+    "color_neg": "#EB5757",
+    "color_text": "#2A2233",
+    "color_label": "#9B95A6",
+    "pill_fill": "#E84FA8"
+  }
+}

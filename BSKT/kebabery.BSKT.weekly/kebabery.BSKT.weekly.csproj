@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>bskt_ico1.ico</ApplicationIcon>
+    <AssemblyName>kebabery.BSKT.weekly</AssemblyName>
+    <Product>kebabery.BSKT.weekly</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="2.88.9" />
+    <PackageReference Include="SkiaSharp.Views.WindowsForms" Version="2.88.9" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Win32" Version="2.88.9" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2792.45" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bskt_ico1.ico" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="fonts\PPSupplySans-Regular.ttf" CopyToOutputDirectory="PreserveNewest" Condition="Exists('fonts\\PPSupplySans-Regular.ttf')" />
+  </ItemGroup>
+
+</Project>
