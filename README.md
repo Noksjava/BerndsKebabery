@@ -1,2 +1,2 @@
 # BerndsKebabery
-Bernd's Kebabery Toolkit
+Handy stuff for kebabers and burger flippers
